@@ -7,58 +7,156 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="jumbotron text-center header ">
-            hello
+    <div id="top" class="container-fluid">
+        <div class="jumbotron  header ">
+            
+            <img class="logo" src="./images/LOGO.jpg">
+            <h2><i># MULTIMEDIA TECHNOLOGIES</i></h2>
+            
         </div>
 
         <div class="navbar navbar-default jumbotron">
+                        <ul class="navigation">
+                            <li><a href="#section">Images</a></li>
+                            <li><a href="#videos">Videos</a></li>
+                            <li><a href="#audio">Audios</a></li>
+                            <li><a href="#section3">Animations</a></li>
+                            <li><a href="#text">Text</a></li>
+                        </ul>
 
         </div>
                <div class="row content ">
                     <div class="col-sm-2 sidenav">
-                        <h3>menu</h3>
+                        <h3 class="menu"><i><u>menu</u></i></h3>
                         <ul class="nav nav-pills nav-stacked">
-                            <li onclick=" class="active""><a href="#section1">Images</a></li>
-                            <li><a href="#section2">Videos</a></li>
-                            <li><a href="#section3">Audios</a></li>
+                            <li><a href="#section">Images</a></li>
+                            <li><a href="#videos">Videos</a></li>
+                            <li><a href="#audio">Audios</a></li>
                             <li><a href="#section3">Animations</a></li>
-                            <li><a href="#section3">Text</a></li>
+                            <li><a href="#text">Text</a></li>
                         </ul><br>
                     </div>
                </div>
     <div class="container">
-               <section class="jumbotron section">
+               <section id="section" class="jumbotron section">
                  <div class="row">
                   <div class="col-md-4">
-                  <a href="./images/1.jpg" class="thumbnail"></a>
+                  <a href="./images/9.jpg" class="thumbnail">
+                  <p>River chanab (Chiniot)</p>
+                   <img src="./images/9.jpg" alt="Pulpit Rock" style="width:250px;height:190px">
+                  </a>
                   </div>
                    <div class="col-md-4">
-                        <a href="./images/1.jpg" class="thumbnail"></a>
+                       
+                        <a href="./images/n.jpg" class="thumbnail">
+                        <p>(mubashir ali siddiqui)</p>
+                        <img src="./images/n.jpg" alt="image mubashir ali siddiqui" style="width:250px;height:190px">
+                        </a>
                    </div>
                    <div class="col-md-4">
-                        <a href="./images/1.jpg" class="thumbnail"></a>
+                       
+                        <a href="./images/7.jpg" class="thumbnail">
+                         <p>River Neelam(Muree)</p>
+                         <img src="./images/7.jpg" alt="Pulpit Rock" style="width:250px;height:200px">
+                        </a>
                    </div>
                  </div>
                </section>
     </div>
-     <div class="container">
-               <section class="jumbotron section">
-                 <div class="row">
-                  <div class="col-md-4">
-                  <a href="./images/1.jpg" class="thumbnail"></a>
-                  </div>
-                   <div class="col-md-4">
-                        <a href="./images/1.jpg" class="thumbnail"></a>
-                   </div>
-                   <div class="col-md-4">
-                        <a href="./images/1.jpg" class="thumbnail"></a>
-                   </div>
-                 </div>
-               </section>
+     <div class="container1 jumbotron">
+         <div id= videos class="row">
+          <div class="col-md-4 ">
+         <p><i>learn how to add video to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls ">
+         <source src="./videos/1.mp4"/>
+          </video> 
+     </div>  
+     <div class="col-md-4  ">
+         <p><i>learn how to add Images  to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls">
+         <source src="./videos/2.mp4"/>
+          </video> 
+     </div>
+     <div class="col-md-4 ">
+         <p><i>learn how to add Audio files to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls">
+         <source src="./videos/3.mp4"/>
+          </video> 
+     </div>          
     </div>
-               </div>
+     </div>
+<!-- this is the section of text -->
+     <div id="text" class="container1 jumbotron font">
+           <h1><i>Typeface Terminology</i></h1>
+         <div id= "#" class="row">
+             <div class="col-md-4 Serif ">
+                 <h4>Serif</h4>
+                 <p>Serif fonts have extra details on
+                    the ends of the main strokes of
+                    the letters. These details are
+                    known as serifs.
+                </p>
+         </div>
+         <div class="col-md-4 sanserif ">
+                 <h4>Sans-Serif</h4>
+                 <p>Sans-serif fonts have straight
+                    ends to letters, and therefore
+                    have a much cleaner design.
+                </p>
+         </div>
+          <div class="col-md-4 monospace ">
+                 <h4>Monospace</h4>
+                 <p>Every letter in a monospace (or
+                    fixed-width) font is the same
+                    width. (Non-monospace fonts
+                    have different widths.)
+                </p>
+         </div>
+
+     </div>
     </div>
+
+    <!-- this is the section of audio -->
+    <div id="audio" class="jumbotron audio">
+        <p>Want to entertain? listen this song</p>
+        <audio controls="controls" >
+            <source src="./audios/2.mp3" />
+
+        </audio>
+    </div>
+<!-- this is the section of videos -->
+<div class="container1 jumbotron">
+         <div id="#"class="row">
+          <div class="col-md-4 ">
+         <p><i>learn how to add video to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls ">
+         <source src="./videos/1.mp4"/>
+          </video> 
+     </div>  
+     <div class="col-md-4  ">
+         <p><i>learn how to add Images  to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls">
+         <source src="./videos/2.mp4"/>
+          </video> 
+     </div>
+     <div class="col-md-4 ">
+         <p><i>learn how to add Audio files to your html file</i></p>
+         <video class="videos" width="320"height="240" controls="controls">
+         <source src="./videos/3.mp4"/>
+          </video> 
+     </div>          
+    </div>
+     </div>
+     <div class="jumbotron footer">
+         <p class="top"><a href="#top"> GO TO TOP</a></p>
+ <marquee> MADE BY MUBASHIR ALI SIDDIQUI</marquee>
+
+     </div>
+
+    
+     </div>
+               
+    
     
 </body>
 </html>
