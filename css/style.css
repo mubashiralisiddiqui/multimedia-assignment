@@ -1,16 +1,22 @@
 
 
-.header{width:100%;
+#header{width:100%;
         margin-top: 10px;
         text-align: center;
+        background: linear-gradient(to right bottom,#25F4C6 30% ,gray 10%);
 
 
 }
-.header h1{ text-align: center;}
+#header h1{ text-align: center;
+           color: #25F4C6;
+           font-size: 50px;
+           text-decoration: underline;
+}
 .logo{float: left;
       width: 150px;
       height: 50px;
-      border-radius: 0px 20px 20px;
+      border-radius: 05px 25px 15px;
+      
             
 }
 .section{
@@ -19,6 +25,8 @@
        margin-left: 140px;
         margin-top: -300px;
   }
+  .navbar{  background: radial-gradient(#25F4C6  ,gray );
+}
 .thumbnail{width: 200px;
             height: 300px;
 }
@@ -29,34 +37,63 @@
 
 
 }
+.container1 h1{ color: white;
+                
+}
+.paragraph{
+           color: orange;
+
+}
 .videos{
 
       padding-right:40px;
 }
 .Serif{font-family: serif;
-      color: cornflowerblue;
+      color: white;
 
 }
-.Serif h4{color: orange;}
-.sanserif h4{color: orange;}
-.monospace h4{color: orange;}
+.Serif h4{color: orange;
+          font-size: 25px;
+}
+.sanserif h4{color: orange;
+             font-size: 25px;
+}
+.monospace h4{color: orange;
+              font-size: 25px;
+}
 
 .sanserif{
       font-family: sans-serif;
-        color: cornflowerblue;
-
+        color: white;
 }
 .monospace{
      font-family: monospace;
-       color: cornflowerblue;
+       color: white;
 
 }
 .audio{width: 1000px;
        margin-left: 180px;
 }
 
-.footer{height: 200px;}
-marquee{color: darkorange;}
+#footer{height: 200px;
+        background: linear-gradient(to left bottom,#25F4C6 30% ,gray 10%);
+}
+
+.github{width: 30px;
+      height: 30px;
+      border-radius: 100px;
+      
+      float: right;
+}
+
+.github_p{
+         color: white;
+         font-family:sans-serif;
+         float: right;
+}
+marquee{color: darkorange;
+         font-size: 30px;
+}
 
 .top{float: right;}
 
@@ -84,3 +121,7 @@ h3.menu{font-family: serif;
         text-transform: uppercase;
         text-decoration: underline;
 }
+.jumbotron{
+       background: radial-gradient(#25F4C6  ,gray );
+}
+

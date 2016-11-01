@@ -2,83 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>MULTIMEDIA TECHNOLOGIES</title>
+    <link rel="icon" href="./images/icon.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+     <!--full width responsive container-->
     <div id="top" class="container-fluid">
-        <div class="jumbotron  header ">
-            
+        <!--header of website-->
+        <div id="header" class="jumbotron ">
+            <!--logo and heading of website-->
             <img class="logo" src="./images/LOGO.jpg">
-            <h2><i># MULTIMEDIA TECHNOLOGIES</i></h2>
+            <h1><i><b># MULTIMEDIA TECHNOLOGIES</b></i></h1>
             
         </div>
-
+        <!--top navigation bar of website-->
         <div class="navbar navbar-default jumbotron">
                         <ul class="navigation">
                             <li><a href="#section">Images</a></li>
                             <li><a href="#videos">Videos</a></li>
                             <li><a href="#audio">Audios</a></li>
-                            <li><a href="#section3">Animations</a></li>
+                            <li><a href="#gif">Animations</a></li>
                             <li><a href="#text">Text</a></li>
                         </ul>
 
         </div>
+            <!--side navigation of website-->
                <div class="row content ">
                     <div class="col-sm-2 sidenav">
                         <h3 class="menu"><i><u>menu</u></i></h3>
                         <ul class="nav nav-pills nav-stacked">
-                            <li><a href="#section">Images</a></li>
+                            <li><a href="#gallery">Images</a></li>
                             <li><a href="#videos">Videos</a></li>
                             <li><a href="#audio">Audios</a></li>
-                            <li><a href="#section3">Animations</a></li>
+                            <li><a href="#gif">GIF Images</a></li>
                             <li><a href="#text">Text</a></li>
                         </ul><br>
                     </div>
                </div>
-    <div class="container">
-               <section id="section" class="jumbotron section">
+           <!--gallery of website-->
+               <section id="gallery" class="jumbotron section container1">
                  <div class="row">
                   <div class="col-md-4">
                   <a href="./images/9.jpg" class="thumbnail">
                   <p>River chanab (Chiniot)</p>
-                   <img src="./images/9.jpg" alt="Pulpit Rock" style="width:250px;height:190px">
+                   <img src="./images/9.jpg" alt="river chanab" style="width:250px;height:190px">
                   </a>
                   </div>
                    <div class="col-md-4">
-                       
                         <a href="./images/n.jpg" class="thumbnail">
                         <p>(mubashir ali siddiqui)</p>
                         <img src="./images/n.jpg" alt="image mubashir ali siddiqui" style="width:250px;height:190px">
                         </a>
                    </div>
                    <div class="col-md-4">
-                       
                         <a href="./images/7.jpg" class="thumbnail">
-                         <p>River Neelam(Muree)</p>
-                         <img src="./images/7.jpg" alt="Pulpit Rock" style="width:250px;height:200px">
+                        <p>(River Neelam (Muree))</p>
+                        <img src="./images/7.jpg" alt="image mubashir ali siddiqui" style="width:250px;height:190px">
                         </a>
                    </div>
+                   
+                   
                  </div>
                </section>
-    </div>
+      <!--video gallery of website-->
      <div class="container1 jumbotron">
          <div id= videos class="row">
           <div class="col-md-4 ">
-         <p><i>learn how to add video to your html file</i></p>
+         
+         <p  class="paragraph"><i>learn how to add video to your html file</i></p>
          <video class="videos" width="320"height="240" controls="controls ">
          <source src="./videos/1.mp4"/>
           </video> 
      </div>  
      <div class="col-md-4  ">
-         <p><i>learn how to add Images  to your html file</i></p>
+         <p  class="paragraph"><i>learn how to add Images  to your html file</i></p>
          <video class="videos" width="320"height="240" controls="controls">
          <source src="./videos/2.mp4"/>
           </video> 
      </div>
      <div class="col-md-4 ">
-         <p><i>learn how to add Audio files to your html file</i></p>
+         <p class="paragraph"><i>learn how to add Audio files to your html file</i></p>
          <video class="videos" width="320"height="240" controls="controls">
          <source src="./videos/3.mp4"/>
           </video> 
@@ -117,46 +122,58 @@
     </div>
 
     <!-- this is the section of audio -->
+
     <div id="audio" class="jumbotron audio">
-        <p>Want to entertain? listen this song</p>
+     <div class="row">
+     <div class="col-md-5 ">
+         <p>A Little Intro </p>
+        <audio controls="controls" >
+            <source src="./audios/mm.m4a" />
+        </audio>
+     </div>
+       <div class="col-md-5 ">
+        <p>Want to entertain...? listen this song</p>
         <audio controls="controls" >
             <source src="./audios/2.mp3" />
-
         </audio>
     </div>
-<!-- this is the section of videos -->
+    </div>
+    </div>
+<!-- this is the section of gif images -->
 <div class="container1 jumbotron">
-         <div id="#"class="row">
+         <div id="gif" class="row">
           <div class="col-md-4 ">
-         <p><i>learn how to add video to your html file</i></p>
-         <video class="videos" width="320"height="240" controls="controls ">
-         <source src="./videos/1.mp4"/>
-          </video> 
-     </div>  
-     <div class="col-md-4  ">
-         <p><i>learn how to add Images  to your html file</i></p>
-         <video class="videos" width="320"height="240" controls="controls">
-         <source src="./videos/2.mp4"/>
-          </video> 
-     </div>
+         <p><i>GIF images</i></p>
+         <img src="./videos/first.gif" width="300"height="240">
+         
+         </div>  
      <div class="col-md-4 ">
-         <p><i>learn how to add Audio files to your html file</i></p>
-         <video class="videos" width="320"height="240" controls="controls">
-         <source src="./videos/3.mp4"/>
-          </video> 
-     </div>          
+         <p><i>GIF images</i></p>
+         <img src="./videos/first.gif" width="300"height="240">
+         
+         </div>  
+      <div class="col-md-4 ">
+         <p><i>GIF images</i></p>
+         <img src="./videos/first.gif" width="300"height="240">
+         
+         </div>      
     </div>
      </div>
-     <div class="jumbotron footer">
+     <!--footer of web page-->
+     <div id="footer" class="jumbotron ">
+        
          <p class="top"><a href="#top"> GO TO TOP</a></p>
  <marquee> MADE BY MUBASHIR ALI SIDDIQUI</marquee>
-
+       <a href="https://github.com/mubashiralisiddiqui"><p class="github_p">Follow me at github</p> 
+      <img class="github" src="./images/github.png"></a>
      </div>
 
     
      </div>
                
-    
+    <script >
+        alert("welcome");
+    </script>
     
 </body>
 </html>
